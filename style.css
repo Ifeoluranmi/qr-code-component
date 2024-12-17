@@ -1,15 +1,18 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    width: auto;
 }
 
 body {
+    margin: 100px 50px;
     background-color: rgb(166, 204, 219);
+    width: auto;
 }
 
 main {
     background-color: white;
     border-radius: 10px;
-    margin: 100px 50px;
     padding: 10px;
     text-align: center;
 }
@@ -28,6 +31,7 @@ h5 {
 p {
     color: gray;
     font-size: 10px;
+    margin: 0 10px;
 }
 
 .attribution {
